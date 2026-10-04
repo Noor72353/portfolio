@@ -13,52 +13,127 @@ const menuToggle =
 const navLinks =
     document.querySelector(".nav-links");
 
-
 if (menuToggle && navLinks) {
 
-    menuToggle.addEventListener("click", () => {
+    function closeMenu() {
 
-        const isOpen =
-            navLinks.classList.toggle("active");
+        navLinks.classList.remove("active");
 
         menuToggle.setAttribute(
             "aria-expanded",
-            isOpen ? "true" : "false"
+            "false"
         );
 
         menuToggle.setAttribute(
             "aria-label",
-            isOpen
-                ? "Close navigation menu"
-                : "Open navigation menu"
+            "Open navigation menu"
+        );
+
+        document.body.style.overflow = "";
+
+    }
+
+
+    function openMenu() {
+
+        navLinks.classList.add("active");
+
+        menuToggle.setAttribute(
+            "aria-expanded",
+            "true"
+        );
+
+        menuToggle.setAttribute(
+            "aria-label",
+            "Close navigation menu"
+        );
+
+        document.body.style.overflow = "hidden";
+
+    }
+
+
+    menuToggle.addEventListener(
+        "click",
+        (event) => {
+
+            event.stopPropagation();
+
+            if (
+                navLinks.classList.contains("active")
+            ) {
+
+                closeMenu();
+
+            } else {
+
+                openMenu();
+
+            }
+
+        }
+    );
+
+
+    const navigationLinks =
+        document.querySelectorAll(
+            ".nav-links a"
+        );
+
+
+    navigationLinks.forEach((link) => {
+
+        link.addEventListener(
+            "click",
+            () => {
+
+                closeMenu();
+
+            }
         );
 
     });
 
 
-    const navigationLinks =
-        document.querySelectorAll(".nav-links a");
+    // Close menu when clicking outside
+
+    document.addEventListener(
+        "click",
+        (event) => {
+
+            if (
+                navLinks.classList.contains("active") &&
+                !navLinks.contains(event.target) &&
+                !menuToggle.contains(event.target)
+            ) {
+
+                closeMenu();
+
+            }
+
+        }
+    );
 
 
-    navigationLinks.forEach((link) => {
+    // Close menu with Escape key
 
-        link.addEventListener("click", () => {
+    document.addEventListener(
+        "keydown",
+        (event) => {
 
-            navLinks.classList.remove("active");
+            if (
+                event.key === "Escape" &&
+                navLinks.classList.contains("active")
+            ) {
 
-            menuToggle.setAttribute(
-                "aria-expanded",
-                "false"
-            );
+                closeMenu();
 
-            menuToggle.setAttribute(
-                "aria-label",
-                "Open navigation menu"
-            );
+                menuToggle.focus();
 
-        });
+            }
 
-    });
+        }
+    );
 
 }
 
