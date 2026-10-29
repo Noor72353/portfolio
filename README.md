@@ -2,7 +2,7 @@
 
 Personal portfolio website of **Noorwali Khan**, a BS Computer Science graduate from the **Federal Urdu University of Arts, Science & Technology (FUUAST), Islamabad, Pakistan**.
 
-The portfolio presents my academic background, technical skills, projects, certifications, achievements, CVs, and contact information, with a focus on **Artificial Intelligence, Machine Learning, Computer Vision, Multimodal AI, HCI, and Intelligent Systems**.
+The portfolio presents my academic background, research interests, technical skills, ongoing work experience, projects, certifications, achievements, CVs, and contact information, with a focus on **Artificial Intelligence, Machine Learning, Computer Vision, Multimodal AI, HCI, and Intelligent Systems**.
 
 ## 🌐 Live Website
 
@@ -12,7 +12,7 @@ The website is deployed using **GitHub Pages**.
 
 ## 👨‍💻 About Me
 
-I am a **BS Computer Science graduate** from FUUAST with a **CGPA of 3.75/4.00** and hands-on experience developing AI and computer vision systems.
+I am a **BS Computer Science graduate** from FUUAST with a **CGPA of 3.75/4.00**, ranked **third in my cohort**, and have hands-on experience developing AI and computer vision systems.
 
 My technical experience includes Python, Artificial Intelligence, Computer Vision, Machine Learning, Image and Video Analysis, Multimodal Interaction, and desktop application development.
 
@@ -30,6 +30,42 @@ My research interests include:
 * Speech and Vision-Based Interaction
 
 I am interested in graduate studies, research opportunities, and practical roles related to AI, Computer Vision, Machine Learning, Multimodal AI, HCI, and Intelligent Systems.
+
+## 🔬 Research Interests
+
+* Machine Learning
+* Deep Learning
+* Computer Vision
+* Image and Video Analysis
+* 3D Vision
+* Multimodal AI
+* Intelligent Systems
+
+## 🎓 Education
+
+### BS Computer Science
+
+**Federal Urdu University of Arts, Science & Technology (FUUAST)**  
+Islamabad, Pakistan
+
+* CGPA: **3.75/4.00**
+* Completed: **2026**
+
+### HSSC — Pre-Engineering
+
+**Al-Asar Degree College Usterzai Payan**  
+Kohat, Pakistan
+
+* Percentage: **73.64%**
+* Completed: **2021**
+
+### SSC — Science
+
+**Al-Asar Degree College Usterzai Payan**  
+Kohat, Pakistan
+
+* Percentage: **78.18%**
+* Completed: **2019**
 
 ## 🛠️ Technical Skills
 
@@ -64,11 +100,17 @@ I am interested in graduate studies, research opportunities, and practical roles
 * Gesture Recognition
 * Speech-Based Interaction
 * Multimodal Interaction
+* TF-IDF
+* Cosine Similarity
+* MyMemory Translation API
 
 ### Frameworks & Libraries
 
 * PySide6
 * NumPy
+* TensorFlow/Keras
+* scikit-learn
+* Streamlit
 
 ### Database
 
@@ -81,6 +123,16 @@ I am interested in graduate studies, research opportunities, and practical roles
 * Visual Studio Code
 * PyInstaller
 * Inno Setup
+* Requests
+* music21
+
+## 💼 Work Experience
+
+### CodeAlpha — Artificial Intelligence Intern
+
+**Status: In Progress**
+
+Currently working on practical AI projects involving computer vision, object detection and tracking, natural language processing, language translation, and deep-learning-based music generation.
 
 ## 📌 Featured Projects
 
@@ -152,39 +204,18 @@ The system supports:
 * Ultralytics YOLO
 * ByteTrack
 * NumPy
+* TensorFlow/Keras
+* scikit-learn
+* Streamlit
 * PyInstaller
 * Inno Setup
+* Requests
+* music21
 
 **Focus:** Computer Vision, Object Detection, Multi-Object Tracking, Video Analytics, Intelligent Perception
 
 **Repository:**
 https://github.com/Noor72353/ai-video-analytics
-
-## 🎓 Education
-
-### BS Computer Science
-
-**Federal Urdu University of Arts, Science & Technology (FUUAST)**
-Islamabad, Pakistan
-
-* CGPA: **3.75/4.00**
-* Completed: **2026**
-
-### HSSC — Pre-Engineering
-
-**Al-Asar Degree College Usterzai Payan**
-Kohat, Pakistan
-
-* Percentage: **73.64%**
-* Completed: **2021**
-
-### SSC — Science
-
-**Al-Asar Degree College Usterzai Payan**
-Kohat, Pakistan
-
-* Percentage: **78.18%**
-* Completed: **2019**
 
 ## 🏆 Achievements
 
